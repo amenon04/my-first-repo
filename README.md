@@ -2,18 +2,30 @@
 Learning and practicing version control!
 
 
-More content.
+## Setup
 
-Adding this concent using the VS code text editor (locally).
+Clone the repo to download it from GitHub. Perhaps onto the Desktop.
 
-# My First Repo!
+Navigate to the repo using the command line.
 
-This is the README.md file. It uses the markdown language.
+```sh
+cd ~/Desktop/my-first-repo-fall-2025
+```
 
-Here is a list:
+## Usage
 
-  + Item 1
-  + Item 2
-  + Item 3
+Example script:
 
-For more information about Markdown syntax, see the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
+```sh
+python app/my_script.py
+```
+
+Game of rock, paper, scissors:
+
+```sh
+python app/rps.py
+
+# alternative "modular style" command:
+python -m app.rps
+```
+
