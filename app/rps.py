@@ -1,4 +1,4 @@
-
+import random
 VALID_OPTIONS = ["rock", "paper", "scissors"]
 
 # DETERMINE THE WINNER
