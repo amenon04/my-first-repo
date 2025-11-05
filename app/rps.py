@@ -12,7 +12,7 @@ def determine_winner(u, c):
     elif u == "rock" and c == "scissors":
         return "USER WINS"
     elif u == "paper" and c == "rock":
-        return "COMPUTER WINS" # OOPS
+        return "USER WINS" # OOPS
     elif u == "paper" and c == "paper":
         return "TIE GAME"
     elif u == "paper" and c == "scissors":
