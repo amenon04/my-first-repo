@@ -1,8 +1,7 @@
-
 import random
-VALID_OPTIONS = ["rock", "paper", "scissors"]
 
-# DETERMINE THE WINNER
+
+VALID_OPTIONS = ["rock", "paper", "scissors"]
 
 
 def determine_winner(u, c):
@@ -17,7 +16,7 @@ def determine_winner(u, c):
     elif u == "paper" and c == "paper":
         return "TIE GAME"
     elif u == "paper" and c == "scissors":
-        return "COMPUTER WINS" 
+        return "COMPUTER WINS"
     elif u == "scissors" and c == "rock":
         return "COMPUTER WINS"
     elif u == "scissors" and c == "paper":
@@ -52,15 +51,3 @@ if __name__ == "__main__":
 
     result = determine_winner(user_choice, computer_choice)
     print(result)
-
-
-
-
-
-
-
-
-
-
-
-

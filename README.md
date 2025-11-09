@@ -18,8 +18,7 @@ python app/my_script.py
 Game of rock, paper, scissors:
 
 ```sh
-python app/rps.py
-
+cipy
 # alternative "modular style" command:
 python -m app.rps
 ```

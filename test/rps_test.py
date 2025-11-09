@@ -1,6 +1,8 @@
+
 # this is the "test/rps_test.py" file...
 
 from app.rps import determine_winner
+
 
 def test_winners():
     # tests for all edge cases:
@@ -16,13 +18,3 @@ def test_winners():
     assert determine_winner(u="scissors", c="scissors") == "TIE GAME"
     assert determine_winner(u="scissors", c="paper") == "USER WINS"
     assert determine_winner(u="scissors", c="rock") == "COMPUTER WINS"
-
-
-
-
-
-
-
-
-
-
