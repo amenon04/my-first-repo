@@ -41,6 +41,12 @@ Install package dependencies:
 ```sh
 pip install -r requirements.txt
 ```
+## Web App
+
+
+
+# Mac OS:
+FLASK_APP=web_app flask run
 
 ## Testing
 
